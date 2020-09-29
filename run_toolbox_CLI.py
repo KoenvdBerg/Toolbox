@@ -29,12 +29,14 @@ def get_arguments_cl():
         tuple with arguments
     '''
     # Main parser
-    parser = argparse.ArgumentParser(description="Collects relevant mRNA sequence parameters from annotated whole genome genbank files")
+    parser = argparse.ArgumentParser(description="Collects relevant mRNA\
+    sequence parameters from annotated whole genome genbank files")
     subparsers = parser.add_subparsers(dest='mode') #title='subcommands', dest='mode')
 
     # collect_features
     parameter_parser = subparsers.add_parser('collect_features',
-                                             help='Collect transcript parameters that are relevant for protein modelling.',
+                                             help='Collect transcript parameters that are\
+                                             relevant for protein modelling.',
                                              add_help=False)
     required = parameter_parser.add_argument_group('Required Arguments')
     optional = parameter_parser.add_argument_group('Optional Arguments')
