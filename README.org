@@ -1,0 +1,3 @@
+* MRDM_internship_code
+Small snippet of the full MSc Internship project displaying my current
+level of programming.
