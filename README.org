@@ -1,3 +1,15 @@
 * Toolbox Snippet
 Small snippet of the full MSc Internship project displaying my current
 level of programming.
+
+** Short overview:
+The main goal of the project was to create a user command line
+interface (CLI) and a graphical user interface (GUI). Only the CLI is
+shown here. In the file =run_toolbox_CLI.py= this CLI is defined, as
+well as a snippet of the main function. It imports the developed
+Genbank file parser API from =genbank/genbank.py= to parse the user
+provided data into a record list (JSON). Next it imports
+=collect_features/load_data.py= to load more datasets (.csv or .xlsx)
+and =collect_features/compute_features.py= to mutate an existing
+column in the JSON data and add this new feature to the dataset using
+the =addNewDatatoRecord()= method.
